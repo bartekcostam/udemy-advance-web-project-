@@ -1,7 +1,4 @@
-var heightJon((Math.random(y) * ageJohn) );
-var ageJohn = y;
+var age;
 
-console.log(ageJohn);
+age = 12;
 
-
-alert(ageJohn);
