@@ -1,7 +1,7 @@
-var heightJon = x;
+var heightJon((Math.random(y) * ageJohn) );
+var ageJohn = y;
 
-var heightMark = y;
+console.log(ageJohn);
 
-Math.random(x);
 
-console.log(x);
+alert(ageJohn);
