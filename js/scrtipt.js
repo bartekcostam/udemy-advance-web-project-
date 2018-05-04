@@ -2,6 +2,7 @@ var age;
 
 age = 12;
 
-console.log(age);
 
-alert('age');
+
+
+alert(age + " cos tam sobie szlo...");
