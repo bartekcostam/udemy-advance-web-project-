@@ -44,17 +44,19 @@ jedzSamochodem: function(){
 
 console.log(czlowiek);
 
-var nowyElement = document.createElement("p");
+var nowyElement = document.createElement("div");
 
-var tresc = document.createTextNode("Tekst nowego elementu");
+var tresc = document.createTextNode("przycisk - nowy");
 
 nowyElement.appendChild(tresc);
+
+var element = document.getElementById("kolumny");
 
   var click =  document.getElementById("test");
 
   click.addEventListener("click",function () {
 
-
+element.appendChild(tresc);
 
   }, false);
 
