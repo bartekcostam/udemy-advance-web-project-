@@ -44,13 +44,22 @@ jedzSamochodem: function(){
 
 console.log(czlowiek);
 
+var nowyElement = document.createElement("p");
+
+var tresc = document.createTextNode("Tekst nowego elementu");
+
+nowyElement.appendChild(tresc);
+
+  var click =  document.getElementById("test");
+
+  click.addEventListener("click",function () {
 
 
-function myFunction() {
-    document.getElementById("test");
 
-  document.getElementById("test2").innerHTML += '<div class="btn btn-info">nowy_przycisk </div>';
-  }
+  }, false);
+
+
+  
   
 
 
