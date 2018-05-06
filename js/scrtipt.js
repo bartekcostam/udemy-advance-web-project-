@@ -25,11 +25,33 @@ console.log(user);
 
 var czlowiek = {
 
+wzrost: 168,
+kolorOczu: 'niebieskie',
+kolorSkory: 'bialy',
 
+umyjDupsko: function(){
+
+    console.log('mysje duspko');
+
+},
+
+jedzSamochodem: function(){
+
+    console.log('jade sobie w pizdu');
+}
 
 }
 
+console.log(czlowiek);
 
+
+
+function myFunction() {
+    document.getElementById("test");
+
+  document.getElementById("test2").innerHTML += '<div class="btn btn-info">nowy_przycisk </div>';
+  }
+  
 
 
 
