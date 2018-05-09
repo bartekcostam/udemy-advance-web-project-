@@ -1,4 +1,4 @@
-document.getElementById('get-btn').addEventListener('click', getAjax);
+document.getElementById('btn-get').addEventListener('click', getAjax);
 
 function getAjax() {
 
@@ -15,7 +15,7 @@ if (xhr.status === 200){
 
 }
 
-xhr.open('GET', 'text.txt', true);
+xhr.open('GET','text.txt',true);
 
 xhr.send();
 
