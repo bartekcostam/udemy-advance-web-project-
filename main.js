@@ -4,6 +4,7 @@ function getAjax() {
 
 const xhr = new XMLHttpRequest();
 
+console.log(xhr);
 
 xhr.onload = () => {
 
@@ -15,5 +16,7 @@ if (xhr.status === 200){
 }
 
 xhr.open('GET', 'text.txt', true);
+
+xhr.send();
 
 }
