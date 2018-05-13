@@ -117,40 +117,16 @@
         </div>
 
     </div>
-
-        <form action='/' method='post' class='contact-form commentsblock'>
-
-            <div>
-                 <label for='g52-name' class='grunion-field-label name'>Name<span>
-                 (required)</span></label>
-          
-                 <input type='text' name='g52-name' id='g52-name' value='' 
-                 class='name'  
-                 required aria-required='true'/>
-          
-            </div>
-          
-             <div>
-                  <label for='g52-email' class='grunion-field-label email'>Email<span>
-                   (required)</span></label>
-                  <input type='email' name='g52-email' id='g52-email' value='' 
-                   class='email'  required aria-required='true'/>
-             </div>
-          
-              <div>
-                  <label for='g52-website' class='grunion-field-label 
-                  url'>Website</label>
-                  <input type='text' name='g52-website' id='g52-website' value='' 
-                  class='url'  />
-              </div>
-          
-          <div>
-                  <label for='contact-form-comment-g52-comment' class='grunion-field-label textarea'>Comment</label>
-                  <textarea name='g52-comment' id='contact-form-comment-g52-comment' rows='10' cols='20' class='textarea'  required aria-required='true'></textarea>
-              </div>
-              <p class='contact-submit'>
-                  <input type='submit' value='Submit' class='pushbutton-wide'/>
-          </form>
+    <form id="javascript_form">
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="text" placeholder="Message"></textarea>
+        <input type="submit" id="js_send" value="Send" />
+    
+        <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+        <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+    </form>
+    
+       
 <script src="js/scrtipt.js"></script>
 <script src="main.js"></script>
 <script src="js/app.js"></script>
