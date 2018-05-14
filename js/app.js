@@ -54,6 +54,8 @@ var form_id_js = "javascript_form";
         return form_data.join("&");
     }
 
+    
+
     var js_form = document.getElementById(form_id_js);
     js_form.addEventListener("submit", function (e) {
         e.preventDefault();
