@@ -19,4 +19,24 @@ function getAjax() {
 
     xhr.send();
 
+
+
 }
+
+document.getElementById('clearConsole').addEventListener('click', wykonaj);
+
+function wykonaj() {
+
+console.clear();
+
+}
+
+document.getElementById('addRandomNumbers').addEventListener('click', cos);
+
+function cos() {
+
+    console.log(Math.round(Math.random() *100  ));
+}
+
+
+
