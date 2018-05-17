@@ -38,6 +38,14 @@ function cos() {
     console.log(Math.round(Math.random() *100  ));
 }
 
+function make_json(form){
+
+var json = {
+
+
+};
+
+}
 
 
 
